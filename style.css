@@ -26,7 +26,8 @@ th.desc:after  {
 	border-left: 4px solid transparent;
 	border-right: 4px solid transparent;	
 	border-top: 5px solid #748596; 
-	vertical-align: baseline;
+	position: relative;
+	top: 11px;
 }
 th.asc:after  { 
 	content: "";
@@ -35,7 +36,8 @@ th.asc:after  {
 	border-left: 4px solid transparent;
 	border-right: 4px solid transparent;	
 	border-bottom: 5px solid #748596;
-	vertical-align: baseline;
+	position: relative;
+	bottom: 8px;
 }
 td:first-child {
 	text-transform: capitalize;
